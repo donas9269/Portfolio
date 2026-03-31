@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script language='Javascript'>
+function bienvenue() {
+    alert("Bienvenue à cette page petasse");
+}
+function au_revoir() {
+    alert("Au revoir");
+}
+
+
+
+
+</SCRIPT>
+<body   onLoad='bienvenue()' onUnload='au_revoir()'>
+    
+    <input type="text" class="text" placeholder="Votre nom" id="nom">
+    <input type="text" class="text" placeholder="Votre prenom" id="prenom">
+
+    <button onclick="display()"> Viens chez moi</button>
+
+<p id="vu"></p>
+<style>
+body{
+    justify-content: center;
+    flex-direction:column ;
+    display: flex;
+}
+
+
+.text{
+    width: 300px;
+    height: 40px;
+    justify-content: center;
+    padding: 10px 12px;
+    background-color: #9bacb371;
+    font-size: 19px;
+    outline: none;
+    border: 1px solid rgba(5, 0, 0, 0.774);
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.text:focus{
+    border: 2px solid rgb(44, 4, 219);
+    background-color: #03cbfd;
+    color: #fff;
+}
+
+
+
+
+button{
+    padding: 15px 20px;
+    margin-top: 50px;
+    width: 200px;
+    border: 1px solid #fff;
+    font-size: 19px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #101ee2ad;
+    box-shadow:0px 0px 10px 2px  rgba(0, 0, 5, 0.774);
+
+}
+
+
+button:hover{
+    background-color: #0940f3a9 ;
+    transform: scale(1.01);
+}
+</style>
+
+
+
+
+
+     <script src="app.js"></script>
+</body>
+</html>
