@@ -1,0 +1,164 @@
+/* ================= GLOBAL RESPONSIVE ================= */
+
+/* TABLETTE */
+@media (max-width: 1024px){
+
+  .profile{
+    padding: 4rem 1.5rem;
+  }
+
+  .biographie h1{
+    font-size: 2.5rem;
+  }
+
+  .histoire{
+    font-size: 1.1rem;
+  }
+
+  .img-font img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .competence{
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  }
+
+  .card-skills{
+    flex-direction: column;
+  }
+
+  .element{
+    max-width: 90%;
+  }
+
+}
+
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px){
+
+  /* NAVBAR */
+  nav{
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  .nav-links{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background: var(--primary-color);
+    flex-direction: column;
+    align-items: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease;
+  }
+
+  .nav-links.active{
+    max-height: 300px;
+  }
+
+  nav li{
+    margin: 1rem 0;
+  }
+
+  /* HAMBURGER */
+  .hamburger{
+    display: flex;
+  }
+
+  /* PROFILE */
+  .profile{
+    padding: 3rem 1rem;
+  }
+
+  .biographie h1{
+    font-size: 2rem;
+  }
+
+  .histoire{
+    font-size: 1rem;
+  }
+
+  .info{
+    font-size: 0.9rem;
+  }
+
+  .img-font img{
+    width: 150px;
+    height: 150px;
+  }
+
+  .contactLink{
+    flex-direction: column;
+  }
+
+  .raccourci{
+    flex-direction: column;
+    gap: .4rem;
+  }
+
+  /* COMPETENCES */
+  .competence{
+    grid-template-columns: 1fr;
+  }
+
+  .card{
+    padding: 1.5rem;
+  }
+
+  .card-skills{
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  /* FORM */
+  .element{
+    padding: 0 1rem;
+  }
+
+  .form{
+    font-size: 1.5rem;
+  }
+
+  input, textarea{
+    font-size: 1rem;
+  }
+
+  button{
+    width: 100%;
+  }
+
+}
+
+
+/* ================= PETIT MOBILE ================= */
+@media (max-width: 480px){
+
+  .biographie h1{
+    font-size: 1.6rem;
+  }
+
+  .histoire{
+    font-size: 0.9rem;
+  }
+
+  .img-font img{
+    width: 120px;
+    height: 120px;
+  }
+
+  nav{
+    height: auto;
+    padding: 1rem;
+  }
+
+  nav li{
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+}

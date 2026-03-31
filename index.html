@@ -1,174 +1,197 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
+    <link rel="stylesheet" href="./Style/styl.css" />
+    <link rel="stylesheet" href="./Style/responsive.css" />
+    <title>Komi Anani Dieu-Donné AZIANO</title>
+  </head>
 
-  <link rel="stylesheet" href="styl.css" />
-  <title>Komi Anani Dieu-Donné AZIANO</title>
-</head>
+  <body>
+    <!-- debut du site avec la mise en place de l'entete -->
+    <section class="firstElement">
+      <header class="header">
+        <nav class="nav-bar">
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
 
-<body>
-  <!-- debut du site avec la mise en place de l'entete -->
-  <section class="firstElement">
-    <header class="header">
-      <nav class="nav-bar">
-        <button class="burger-menu" id="burger-btn" hidden>&#9776;</button>
-
-        <div class="nav-link" id="menu-box">
-          <ul>
-            <li><a href="#profile" ">Accueil</a></li> 
-           <li><a href=" competences.html">Competences</a></li>
-            <li><a href="projets.html">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
-
-          </ul>
-        </div>
-      </nav>
-    </header>
-  </section>
-
-  <!-- mon profile  -->
-
-  <section class="profile" id="Profile">
-    <div class="img-font">
-      <profile class="img">
-        <img src="./pp.jpeg" alt="User picture" />
-      </profile>
-    </div>
-    <div class="biographie" id="bgraphy">
-      <h1 class="nom">Hi ! i'm Komi Anani <br>
-        <span>Dieu-Donné AZIANO 
-      </span> </h1>
-
-      <p class="histoire">
-        Etudiant en Développement d'applications
-      </p>
-      <p class="info">
-        Je suis un grand passionné des nouvelles technologies et du développement web
-      </p>
-      <div class="contactLink">
-        <div class="github">
-          <a href="https://www.github.com/donas9269"><button><i class="fi fi-brands-github"></i></button></a>
-        </div>
-
-        <div class="lindk">
-          <a href="https://www.linkedin.com/in/komi-anani-dieu-donné-aziano-679687329"><button>
-              <i class="fi fi-brands-linkedin"></i></button></a>
-        </div>
-
-        <div class="whatsapp">
-          <a href="https://wa.me/22892696236"><button><i class="fi fi-brands-whatsapp"></i></button></a>
-        </div>
-      </div>
-    </div>
-     
-    <div class="raccourci">
-
-      <div class="cpt">
-        <button class="compt"> Voir mes competences</button>
-      </div>
-
-      <div class="atout">
-        <button class="projet">Mes projets</button>
-      </div>
-
-    </div>
-
+          <div class="nav-link" id="menu-box">
+            <ul class="nav-links">
+              <li><a href="#Profile">Accueil</a></li>
+              <li><a href="#Profile">Accueil</a></li>
+              <li><a href="#Competences">Competences</a></li>
+              <li><a href="projets.html">Projets</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
     </section>
 
-  <section id="Competences">
-   <div class="title">
-     
-    <h1 class="cptence"> Mes Compétences</<h1>
-    <p>Technologies et outils que je maîtrise pour créer des applications modernes</p>
+    <!-- mon profile  -->
 
-   </div>
-    <div class="competence">
-      <div class="card">
-        <div class="icon">
-          <img src="./icon/coding.png" alt="coding icon" >
+    <section class="profile" id="Profile">
+      <div class="img-font">
+        <profile class="img">
+          <img src="./pp.jpeg" alt="User picture" />
+        </profile>
+      </div>
+      <div class="biographie" id="bgraphy">
+        <h1 class="nom">
+          Hi ! i'm Komi Anani <br />
+          <span>Dieu-Donné AZIANO </span>
+        </h1>
+
+        <p class="histoire">Etudiant en Développement d'applications</p>
+        <p class="info">
+          Je suis un grand passionné des nouvelles technologies et du
+          développement web
+        </p>
+        <div class="contactLink">
+          <div class="github">
+            <a href="https://www.github.com/donas9269"
+              ><button><i class="fi fi-brands-github"></i></button
+            ></a>
+          </div>
+
+          <div class="lindk">
+            <a
+              href="https://www.linkedin.com/in/komi-anani-dieu-donné-aziano-679687329"
+              ><button>
+                <i class="fi fi-brands-linkedin"></i></button
+            ></a>
+          </div>
+
+          <div class="whatsapp">
+            <a href="https://wa.me/22892696236"
+              ><button><i class="fi fi-brands-whatsapp"></i></button
+            ></a>
+          </div>
         </div>
-       <h3 class="outil"> HTML / CSS / JAVASCRIPT</h3>
       </div>
-      <div class="card">
-         <div class="icon">
-          <img src="./icon/database (1).png" alt="">
-         </div>
-       <h3 class="outil"> JAVA / MYSQL</h3>
+
+      <div class="raccourci">
+        <div class="cpt">
+         <a class="Aprojet" href="#Competences"> <button class="compt" h>Voir mes competences</button></a>
+        </div>
+
+        <div class="atout">
+          <a href="https://projets.html"><button class="projet">Mes projets</button></a>
+        </div>
+
+        <div class="cv">
+          <a href="https://> <button class="MonCV"> Telecharger mon CV</button></a>
+        </div>
       </div>
-      <div class="card">
-         <div class="icon">
-          <img src="./icon/cyber-security.png" alt="">
-         </div>
-        <h3 class="outil"> CYBERSECURITE (Initiation)</h3>
+    </section>
+
+    <section id="Competences">
+      <div class="title">
+        <h1 class="cptence">Mes Compétences</h1>
+        <p>
+          Technologies et outils que je maîtrise pour créer des applications
+          modernes
+        </p>
       </div>
-    </div>
-    <div class="card-skills">
-      <div class="card-element">
-        <h4>Front-end </h4>
-        <progress max="100" value="70" class="progress" id="progress"> </progress>
-        <span id="percent-progress">70%</span>
+      <div class="competence">
+        <div class="card">
+          <div class="icon">
+            <img src="./icon/coding.png" alt="coding icon" />
+          </div>
+          <h3 class="outil">HTML / CSS / JAVASCRIPT</h3>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./icon/database (1).png" alt="" />
+          </div>
+          <h3 class="outil">JAVA / MYSQL</h3>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./icon/cyber-security.png" alt="" />
+          </div>
+          <h3 class="outil">CYBERSECURITE (Initiation)</h3>
+        </div>
       </div>
-      <div class="card-element">
-        <h4> Back-end</h4> <progress max="100" value=""> </progress>
-        <span id="percentProgress">30%</span>
+      <div class="card-skills">
+        <div class="card-element">
+          <h4>Front-end</h4>
+          <progress max="100" value="70"></progress>
+          <span>70%</span>
+        </div>
+        <div class="card-element">
+          <h4>Back-end</h4>
+          <progress max="100" value="30"></progress>
+          <span>30%</span>
+        </div>
+        <div class="card-element">
+          <h4>Base de données</h4>
+          <progress max="100" value="25"></progress>
+          <span>25%</span>
+        </div>
       </div>
-      <div class="card-element">
-        <h4>Base de données</h4>
-        <progress max="100" value=""><span id="percentProgress">%</span></progress>
-        <span id="percentProgress">25%</span>
+    </section>
+
+    <form action="https://formspree.io/f/mjgpvjyq" method="post" id="Contact">
+      <p class="form">Formulaire</p>
+      <div class="element">
+        <div class="form-element">
+          <label for="nom">Nom:</label>
+          <input
+            type="text"
+            placeholder="votre nom"
+            id="nom"
+            autocomplete="none"
+            name="nom"
+          />
+        </div>
+        <div class="form-element">
+          <label for="Prenom">Prenom:</label>
+          <input
+            type="text"
+            placeholder="votre Prenom"
+            id="Prenom"
+            autocomplete="none"
+            name="prenom"
+          />
+        </div>
+        <div class="form-element">
+          <label for="number">Numero:</label>
+          <input
+            type="number"
+            placeholder="eg:+01243...."
+            id="number"
+            name="Numero"
+          />
+        </div>
+        <div class="form-element">
+          <label for="formtxt">Message</label>
+          <textarea name="message" id="formtxt" class="txt"></textarea>
+        </div>
+        <div class="form-element">
+          <button class="btn" id="submit" type="submit">Envoyer</button>
+        </div>
       </div>
-    </div>
-  </section>
+    </form>
 
-  <form action="form.php" method="post">
-    <p class="form">Formulaire</p>
-    <div class="element">
-      <div class="form-element">
-        <label for="nom">Nom:</label>
-        <input type="text" placeholder="votre nom" id="nom" autocomplete="none" name="nom">
-      </div>
-      <div class="form-element">
-        <label for="Prenom">Prenom:</label>
-        <input type="text" placeholder="votre Prenom" id="Prenom" autocomplete="none" name="prenom">
-      </div>
-      <div class="form-element">
-        <label for="number">Numero:</label>
-        <input type="number" placeholder="eg:+01243...." maxvalue="12" id="number" name="Numero">
-      </div>
-      <div class="form-element">
-        <label for="formtxt">Message</label>
-        <textarea name="message" id="formtxt" class="txt"></textarea>
-      </div>
-      <div class="form-element">
-        <button class="btn" id="submit" type="submit">Envoyer</button>
-      </div>
-    </div>
-    </div>
-  </form>
+    <section id="contact-element">
+      <!-- Section vide supprimée -->
+    </section>
 
-  <section id="contact-element">
+    <footer class="end">&copy; 2025,Designer by Donas AZIANO</footer>
 
-<div class="element">
-  <a href=""></a>
-</div>
-
-
-  </section>
-
-
-
-
-
-  <footer class="end">
-    &copy; 2025,Designer by Donas AZIANO
-  </footer>
-
-  <!-- script pour l'affichage du burger menu -->
- 
-</body>
-
+    <!-- script pour l'affichage du burger menu -->
+    <script src="./js/app.js"></script>
+  </body>
 </html>
